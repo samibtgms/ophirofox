@@ -67,7 +67,8 @@
     "https://nouveau-europresse-com.urca.idm.oclc.org/*",
     "https://nouveau-europresse-com.merlin.u-picardie.fr/*",
     "https://nouveau-europresse-com.ezproxy.univ-littoral.fr/*",
-    "https://nouveau.europresse.com.ezproxy.utbm.fr/*"
+    "https://nouveau.europresse.com.ezproxy.utbm.fr/*",
+    "https://nouveau-europresse-com.revproxy.escpeurope.eu/*"
   ],
   "background": {
     "scripts": [
@@ -332,6 +333,10 @@
         {
           "name": "ENS de Lyon",
           "AUTH_URL": "https://acces.bibliotheque-diderot.fr/login?url=https://nouveau.europresse.com/access/ip/default.aspx?un=ENSLYONT_1"
+        },
+          {
+          "name": "ESCP Business School",
+          "AUTH_URL": "https://login.revproxy.escpeurope.eu/login?url=https://nouveau.europresse.com/access/ip/default.aspx?un=escpT_1"
         },
         {
           "name": "Conservatoire national des arts et métiers",
